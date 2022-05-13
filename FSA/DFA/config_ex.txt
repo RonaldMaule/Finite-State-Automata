@@ -1,0 +1,22 @@
+q0		# Start state
+f0,f1	# Final states
+
+#q0
+q0, a, q0
+q0, b, q1
+
+#q1
+q1, a, f0
+q1, b, q2
+
+#q2
+q2, a, q0
+q2, b, f1
+
+#f0
+f0, a, f0
+f0, b, f0
+
+#f1
+f1, a, f1
+f1, b, f1
