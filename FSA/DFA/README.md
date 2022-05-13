@@ -1,6 +1,7 @@
 A configuration file contains the start state on the first line and the final states on the second line (seperated by commas). After that, each line specifies a transitions of the form: current_state, input_character, next state.
 
 Important to note:
+
   Whitespace is ignored in the configuration files. However, state names cannot contain whitespace.
   
   '#' denotes a comment and everything after is ignored.
